@@ -1,0 +1,85 @@
+.head-text{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px 0px 30px;
+}
+
+.everything{
+    position: fixed;
+    left: 18vw;
+    top: 0vh;
+    display: flex;
+    align-items: center;
+}
+
+.right-side{
+    position: relative;
+    bottom: 100px;
+}
+
+#image_container{
+    height: 120vh;
+}
+
+#image{
+    height: 100%;
+    width: 25vw;
+}
+
+div#img_banner{
+    position: absolute;
+    top: 20%;
+    height: 15%;
+    width: 38%;
+    background-color: rgba(58, 63, 67, 0.3);
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+    overflow: hidden;
+}
+
+.img-odin-lined{
+    position: relative;
+    height: 100%;
+    left: 18%;
+    top: 10%;
+}
+
+.banner_text{
+    position: relative;
+    bottom: 5%;
+    left: 10%;
+    font-size: 4vw;
+    color: rgb(246, 239, 223);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px rgb(213, 176, 152);
+}
+
+.form-inputs{
+    padding: 2em;
+}
+
+form *{
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+}
+
+input
+{
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid gray;
+}
+
+input:focus{
+    border: 2px solid blue;
+}
+
+button{
+    background-color: greenyellow;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+}
